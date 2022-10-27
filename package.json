@@ -9,6 +9,9 @@
     "start": "node server.js",
     "watch": "nodemon server.js"
   },
+  "engines": {
+    "node": ">=14" // Fuerzo a la plataforma glitch a instalar una version mayor o igual a 14
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
